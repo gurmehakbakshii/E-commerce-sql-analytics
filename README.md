@@ -43,23 +43,22 @@ Purchase
 ## Dataset
 
 The project uses an event-level e-commerce dataset containing customer interactions.
-user_id:	Unique identifier for each user
-event_id:	Unique identifier for each event
-event_date:	Date and time of the customer event
-event_type:	Type of customer interaction
-product_id:	Product associated with the event
-traffic_source:	Source through which the customer arrived
-amount:	Transaction amount associated with purchases
+- user_id:	Unique identifier for each user
+- event_id:	Unique identifier for each event
+- event_date:	Date and time of the customer event
+- event_type:	Type of customer interaction
+- product_id:	Product associated with the event
+- traffic_source:	Source through which the customer arrived
+- amount:	Transaction amount associated with purchases
 
 ## Analysis Performed
 1. Customer Funnel Analysis
 
 Analyzed the number of distinct users progressing through each stage of the e-commerce funnel:
-
-Page Views
-Add to Cart
-Checkout Start
-Payment Info
+Page Views,
+Add to Cart,
+Checkout Start,
+Payment Info,
 Purchases
 
 This analysis helps identify where users drop off before completing a purchase.
@@ -83,10 +82,10 @@ Compared different traffic sources based on customer activity and conversion per
 
 Metrics analyzed include:
 
-Number of Visitors
-Add to Cart Activity
-Purchases
-Conversion Rates
+Number of Visitors,
+Add to Cart Activity,
+Purchases,
+Conversion Rates,
 Revenue Performance
 
 This helps determine which acquisition channels are driving valuable customer activity.
@@ -94,13 +93,11 @@ This helps determine which acquisition channels are driving valuable customer ac
 4. Customer Journey Analysis
 
 Used SQL to analyze the time taken by customers to progress through different stages of their journey.
-
 The analysis includes:
-
-Time from Page View to Add to Cart
-Time from Add to Cart to Purchase
-Total Customer Journey Time
-Number of Converted Users
+- Time from Page View to Add to Cart
+- Time from Add to Cart to Purchase
+- Total Customer Journey Time
+- Number of Converted Users
 
 SQL functions such as MIN(), TIMESTAMP_DIFF(), and conditional aggregation were used to track customer progression.
 

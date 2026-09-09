@@ -1,0 +1,2 @@
+stage1_views,stage2_cart,views_to_cart_rate,stage3_checkout,checkout_to_cart_rate,stage4_payments,payments_to_checkout_rate,stage5_purchase_made,purchase_to_payments_rate,overall_conversion_rate
+5000,1553,31.0,1103,71.0,899,82.0,826,92.0,17.0

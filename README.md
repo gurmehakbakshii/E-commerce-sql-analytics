@@ -36,7 +36,7 @@ The objective of this project is to answer key business questions such as:
 ## Customer Funnel
 
 The customer journey was analyzed across the following stages:
-
+```text
 Page View  
 ↓  
 Add to Cart  
@@ -46,7 +46,7 @@ Checkout Start
 Payment Info  
 ↓  
 Purchase  
-
+```
 Distinct users were calculated at each stage to understand customer progression and identify potential drop-off points.
 
 ---

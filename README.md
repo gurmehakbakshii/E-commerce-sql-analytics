@@ -215,38 +215,6 @@ Potential improvements to this project include:
 
 ---
 
-## Project Structure
-
-ecommerce-sql-analytics/
-
-├── README.md
-
-├── data/
-│   ├── raw_data/
-│   │   └── user_events.csv
-│   │
-│   └── processed_data/
-│       ├── funnel_analysis.csv
-│       ├── conversion_rates.csv
-│       ├── traffic_source_analysis.csv
-│       ├── customer_journey_analysis.csv
-│       └── revenue_analysis.csv
-
-├── sql/
-│   ├── 01_funnel_analysis.sql
-│   ├── 02_conversion_rates.sql
-│   ├── 03_traffic_source_analysis.sql
-│   ├── 04_customer_journey_analysis.sql
-│   └── 05_revenue_analysis.sql
-
-├── dashboard/
-│   └── ecommerce_dashboard.png
-
-└── images/
-    └── dashboard_preview.png
-
----
-
 ## Author
 
 **Gurmehak Bakshi**
